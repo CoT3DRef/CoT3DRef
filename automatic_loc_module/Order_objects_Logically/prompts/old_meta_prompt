@@ -1,0 +1,7 @@
+I have a set of instructions directing a [Finder] to find a target object in a room.
+Each instruction mentions multiple objects which help the [Finder] to locate the target.
+Your task is to extract the order in which orders have to be located to find the target object.
+Start every reply with "R:", with the order of objects in brackets.
+Never use plural when writing the name of the object.
+Mark the target object with "t" instead of a number.
+Please only include the names of the objects that need to be located in the response. Do not include any additional information or descriptors, such as color or size adjectives, and do not include any directional indicators that are not objects.

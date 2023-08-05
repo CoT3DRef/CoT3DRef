@@ -1,0 +1,82 @@
+you have been provided with a sentence and anchor names located in a room. Your objective is to organize these anchors only in a coherent and logical sequence of thoughts to reach the target.
+
+Format: Order the objects using the format "R: [object order]" and mark the target object with "t". Only include the names of the objects.
+
+Additionally, please exclude any additional information or descriptors such as color or size adjectives. The target is the subject of the sentence.
+
+Q: "The pillow on the couch that is on the right hand side of the room, when you are facing the TV, and is closest to the TV The anchor Names: [TV, couch, pillow]"
+R: [1: TV, 2: couch, t: pillow]
+
+(explanation: we first need to find the TV to orient ourselves, then find the couch on the right hand-side of the room, and then pillow on the couch. Do not mention the explanations in the future. and give me the logical order given the anchor names only)
+
+Q: "The pillow on the bed that is on the far end of the room and is at the rear and right hand side of the bed. The anchor Names: [pillow, bed]"
+R: [1: bed, t: pillow]
+
+Q: "Standing at the end of the bed looking towards the pillows, choose the pillow that is in the front, smaller and more to the right. The anchor Names: [bed, pillow]"
+R: [1: bed, t: pillow]
+
+Q: "There are two groups of kitchen cabinets; three along the wall with the stove, and two on the opposite wall. Looking at the wall opposite the stove, the one with the refrigerator, please select the kitchen cabinet closest to the refrigerator. The anchor Names: [kitchen cabinet, wall, stove, refrigerator]"
+R: [1: wall, 2: stove, 3: refrigerator, t: kitchen cabinet]
+
+Q: "If your back is to the sinks then you are looking for the third stall from the right. The anchor Names: [sink, stall]"
+R: [1: sink, t: stall]
+
+Q: "The lamp that is on the desk. NOT the lamp that is between the beds. The anchor Names: [lamp, desk, bed]"
+R: [1: bed, 2: desk, t: lamp]
+
+Q: "The lamp on the table with the plants. NOT the lamp in the far corner. The anchor Names: [lamp, table, plants]"
+R: [1: table, 2: plants, t: lamp]
+
+Query: "This tan-seated chair sits at the head of the tan desk. Two black chairs sit on either side of the desk. The anchor Names: [chair, desk]"
+R: [1: desk, t:chair]
+
+Query: "It is the small cabinet under the vanity, not the tall clothing cabinet. The anchor Names: [cabinet, vanity]"
+R: [1: vanity, t: cabinet]
+
+Query: "Pick the office chair that is at the end or head of the long table. The anchor Names: [office chair, table]"
+R: [1: table, t: office chair]
+
+Query: "Face the jacket hanging by itself. Of the three stacked pillows, it is the one sticking up the highest (top). The anchor Names: [jacket, pillow]"
+R: [1: jacket, t: pillow]
+
+Query: "The large pillow on the right side of the bed. The anchor Names: [pillow, bed]"
+R: [1: bed, t: pillow]
+
+Query: "The kitchen cabinet on the ground the is further from the fridge.The anchor Names: [kitchen cabinet, fridge]"
+R: [1: fridge, t: kitchen cabinet]
+
+Query: "Choose the recycling bin that is by itself, away fro the other 3. The anchor Names: [recycling bin]"
+R: [t: recycling bin]
+
+Query: "After entering through the doorway, it is the white box under the clock. The anchor Names: [doorway, box, clock]"
+R: [1: doorway, 2: clock, t: box]
+
+Query: "The chair is by the table which appears to have a toaster oven on it. The anchor Names: [chair, table, toaster oven]"
+R: [1: table, 2: toaster oven, t: chair]
+
+Query: "The chair that is alone under the smaller tan table. The anchor Names: [chair, table]"
+R: [1: table, t: chair]
+
+Query: "Chair with back against the wall directly next to book shelf. The anchor Names: [chair, wall, bookshelf]"
+R: [1: wall, 2: bookshelf, t: chair]
+
+Query: "Toilet in the larger stall. The anchor Names: [toilet, bathroom stall]"
+R: [1: bathroom stall, t: toilet]
+
+Query: "the trash bin under the desk closest to the black chair in the corner. The anchor Names: [trash bin, desk, chair]"
+R: [1: desk, 2: chair, t: trash bin]
+
+Query: "When facing the wall with the two paintings, the stool farthest to the left hand side in the corner. The anchor Names: [wall, painting, stool]"
+R: [1: wall, 2: painting, t: stool]
+
+Query: "The lamp to the left if you are lying on the bed. the lamp that is NOT over an end table. The anchor Names: [lamp, bed, end table]"
+R: [1: bed, 2: end table, t: lamp]
+
+(explanation: we need to locate the end table as well to know which lamp is not the correct one, and find the right one afterwards. negated attributes should still be included in the list of words)
+
+Query: "The chair to the left if you are lying on the bed. the chair with the colorful lamp under it. NOT the chair with the statue under it. The anchor Names: [chair, bed, lamp, statue]"
+R: [1: bed, 2: lamp, 3: statue, t: chair]
+
+Do not mention explanations. Only include objects in the list. Do not add any text beyond the reply. The target is the subject of the sentence. Mention all relevant objects in the reply. Don't use color or size adjectives. Please exclude any color adjectives in your response. Avoid using any descriptive words related to color in your response.
+
+Query:
