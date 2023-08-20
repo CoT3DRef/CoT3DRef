@@ -20,7 +20,6 @@ We aims to address the question of whether an interpretable 3D visual grounding 
 
 To achieve this objective, we formulate the 3D visual grounding problem as a sequence-to-sequence (Seq2Seq) task. As illustrated in the architecture above, the The input sequence comprises 3D objects from the scene and an utterance describing a specific object. In contrast to existing architectures, our model predicts both the target object and a chain of anchors on the output side.
 
-
 ## Installation and Data Preparation
 Please refer the installation and data preparation from [referit3d](https://github.com/referit3d/referit3d).
 
@@ -147,7 +146,35 @@ python /CoT3D_VG/refering_codes/MVT-3DVG/train_referit3d.py \
 * To test on joint trained model, add the following argument to the above command
 ```Console
     --augment-with-sr3d sr3d_dataset_file.csv
-``` 
+```
+
+## Results: 
+
+* For The NR3D using our methid **MVT+CoT3DRef**
+| Training Data Percentage  | Accuracy        | Weights_Link    |
+|---------------------------|-----------------|-----------------|
+| 10%                       |    40.5%        |                 |
+| 40%                       |    52.1%        |                 |
+| 70%                       |    53.8%        |                 |
+| 100%                      |    57%          |                 | 
+
+* For The SR3D using our methid **MVT+CoT3DRef**
+| Training Data Percentage  | Accuracy        | Weights_Link    |
+|---------------------------|-----------------|-----------------|
+| 10%                       |    64%          |                 |
+| 40%                       |    70%          |                 |
+| 70%                       |    73%          |                 |
+| 100%                      |    75.4%        |                 | 
+
+* For The ScanRefer using our methid **MVT+CoT3DRef**
+| Training Data Percentage  | Accuracy        | Weights_Link    |
+|---------------------------|-----------------|-----------------|
+| 10%                       |    XX%          |                 |
+| 40%                       |    XX%          |                 |
+| 70%                       |    XX%          |                 |
+| 100%                      |    XX.X%        |                 | 
+
+
 
 ## :bouquet: Credits
 The project is built based on the following repository:
