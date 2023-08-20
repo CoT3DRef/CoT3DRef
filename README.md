@@ -151,6 +151,7 @@ python /CoT3D_VG/refering_codes/MVT-3DVG/train_referit3d.py \
 ## Results: 
 
 * For The NR3D using our methid **MVT+CoT3DRef**
+
 | Training Data Percentage  | Accuracy        | Weights_Link    |
 |---------------------------|-----------------|-----------------|
 | 10%                       |    40.5%        |                 |
@@ -159,6 +160,7 @@ python /CoT3D_VG/refering_codes/MVT-3DVG/train_referit3d.py \
 | 100%                      |    57%          |                 | 
 
 * For The SR3D using our methid **MVT+CoT3DRef**
+
 | Training Data Percentage  | Accuracy        | Weights_Link    |
 |---------------------------|-----------------|-----------------|
 | 10%                       |    64%          |                 |
@@ -167,6 +169,7 @@ python /CoT3D_VG/refering_codes/MVT-3DVG/train_referit3d.py \
 | 100%                      |    75.4%        |                 | 
 
 * For The ScanRefer using our methid **MVT+CoT3DRef**
+
 | Training Data Percentage  | Accuracy        | Weights_Link    |
 |---------------------------|-----------------|-----------------|
 | 10%                       |    XX%          |                 |
