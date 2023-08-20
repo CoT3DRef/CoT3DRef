@@ -150,33 +150,45 @@ python /CoT3D_VG/refering_codes/MVT-3DVG/train_referit3d.py \
 
 ## Results: 
 
-* For The NR3D using our methid **MVT+CoT3DRef**
+* For The NR3D:
 
-| Training Data Percentage  | Accuracy        | Weights_Link    |
-|---------------------------|-----------------|-----------------|
-| 10%                       |    40.5%        |                 |
-| 40%                       |    52.1%        |                 |
-| 70%                       |    53.8%        |                 |
-| 100%                      |    57%          |                 | 
+|Method                     | Training Data Percentage  |        Accuracy           | Weights_Link    |
+|---------------------------|---------------------------|---------------------------|-----------------|
+|           **MVT**         |           10%             |    40.5%                  |                 |                
+|           **MVT**         |           40%             |    52.1%                  |                 |                 
+|           **MVT**         |           70%             |    53.8%                  |                 |                 
+|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
+|       **MVT+3DRef**       |           10%             |    40.5%                  |                 |                
+|       **MVT+3DRef**       |           40%             |    52.1%                  |                 |                 
+|       **MVT+3DRef**       |           70%             |    53.8%                  |                 |                 
+|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
 
-* For The SR3D using our methid **MVT+CoT3DRef**
+* For The SR3D:
 
-| Training Data Percentage  | Accuracy        | Weights_Link    |
-|---------------------------|-----------------|-----------------|
-| 10%                       |    64%          |                 |
-| 40%                       |    70%          |                 |
-| 70%                       |    73%          |                 |
-| 100%                      |    75.4%        |                 | 
+|Method                     | Training Data Percentage  |        Accuracy           | Weights_Link    |
+|---------------------------|---------------------------|---------------------------|-----------------|
+|           **MVT**         |           10%             |    40.5%                  |                 |                
+|           **MVT**         |           40%             |    52.1%                  |                 |                 
+|           **MVT**         |           70%             |    53.8%                  |                 |                 
+|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
+|       **MVT+3DRef**       |           10%             |    40.5%                  |                 |                
+|       **MVT+3DRef**       |           40%             |    52.1%                  |                 |                 
+|       **MVT+3DRef**       |           70%             |    53.8%                  |                 |                 
+|       **MVT+3DRef**       |           100%            |    57%                    |                 |              
 
-* For The ScanRefer using our methid **MVT+CoT3DRef**
 
-| Training Data Percentage  | Accuracy        | Weights_Link    |
-|---------------------------|-----------------|-----------------|
-| 10%                       |    XX%          |                 |
-| 40%                       |    XX%          |                 |
-| 70%                       |    XX%          |                 |
-| 100%                      |    XX.X%        |                 | 
+* For The ScanRefer:
 
+|Method                     | Training Data Percentage  |        Accuracy           | Weights_Link    |
+|---------------------------|---------------------------|---------------------------|-----------------|
+|           **MVT**         |           10%             |    40.5%                  |                 |                
+|           **MVT**         |           40%             |    52.1%                  |                 |                 
+|           **MVT**         |           70%             |    53.8%                  |                 |                 
+|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
+|       **MVT+3DRef**       |           10%             |    40.5%                  |                 |                
+|       **MVT+3DRef**       |           40%             |    52.1%                  |                 |                 
+|       **MVT+3DRef**       |           70%             |    53.8%                  |                 |                 
+|       **MVT+3DRef**       |           100%            |    57%                    |                 | 
 
 
 ## :bouquet: Credits
