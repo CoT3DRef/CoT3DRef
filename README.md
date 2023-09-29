@@ -148,47 +148,7 @@ python /CoT3D_VG/refering_codes/MVT-3DVG/train_referit3d.py \
     --augment-with-sr3d sr3d_dataset_file.csv
 ```
 
-## Results: 
 
-* For The NR3D:
-
-|Method                     | Training Data Percentage  |        Accuracy           | Weights_Link    |
-|---------------------------|---------------------------|---------------------------|-----------------|
-|           **MVT**         |           10%             |    40.5%                  |                 |                
-|           **MVT**         |           40%             |    52.1%                  |                 |                 
-|           **MVT**         |           70%             |    53.8%                  |                 |                 
-|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
-|       **MVT+3DRef**       |           10%             |    40.5%                  |                 |                
-|       **MVT+3DRef**       |           40%             |    52.1%                  |                 |                 
-|       **MVT+3DRef**       |           70%             |    53.8%                  |                 |                 
-|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
-
-* For The SR3D:
-
-|Method                     | Training Data Percentage  |        Accuracy           | Weights_Link    |
-|---------------------------|---------------------------|---------------------------|-----------------|
-|           **MVT**         |           10%             |    40.5%                  |                 |                
-|           **MVT**         |           40%             |    52.1%                  |                 |                 
-|           **MVT**         |           70%             |    53.8%                  |                 |                 
-|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
-|       **MVT+3DRef**       |           10%             |    40.5%                  |                 |                
-|       **MVT+3DRef**       |           40%             |    52.1%                  |                 |                 
-|       **MVT+3DRef**       |           70%             |    53.8%                  |                 |                 
-|       **MVT+3DRef**       |           100%            |    57%                    |                 |              
-
-
-* For The ScanRefer:
-
-|Method                     | Training Data Percentage  |        Accuracy           | Weights_Link    |
-|---------------------------|---------------------------|---------------------------|-----------------|
-|           **MVT**         |           10%             |    40.5%                  |                 |                
-|           **MVT**         |           40%             |    52.1%                  |                 |                 
-|           **MVT**         |           70%             |    53.8%                  |                 |                 
-|       **MVT+3DRef**       |           100%            |    57%                    |                 |                 
-|       **MVT+3DRef**       |           10%             |    40.5%                  |                 |                
-|       **MVT+3DRef**       |           40%             |    52.1%                  |                 |                 
-|       **MVT+3DRef**       |           70%             |    53.8%                  |                 |                 
-|       **MVT+3DRef**       |           100%            |    57%                    |                 | 
 
 
 ## :bouquet: Credits
